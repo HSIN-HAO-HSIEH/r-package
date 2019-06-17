@@ -1,0 +1,10 @@
+Package: myshop
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Hao
+Maintainer: Hao <jh0800978356@gmail.com>
+Description: google map store
+License: GPL
+Encoding: UTF-8
+LazyData: true
