@@ -1,4 +1,3 @@
-
 #' @param k a scalar determining the factorials.
 #' @return a scalar equivalent to \eqn{n!}.
 #' @export
@@ -38,6 +37,7 @@ score=function(name , n)
     MEDIAN[i]=median(x)
   }
   par(mfrow=c(1,2))
-  hist(MEAN)
-  print(mean(MEAN))
+  hist(MEAN , col = "red")
+  print(paste0("mean =" ,mean(MEAN)))
+  print(paste0("median =" ,median(MEDIAN)))
 }
