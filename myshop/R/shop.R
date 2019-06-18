@@ -36,8 +36,8 @@ score=function(name , n)
     MEAN[i]=mean(x)
     MEDIAN[i]=median(x)
   }
-  par(mfrow=c(1,2))
+  par(mfrow=c(1,1))
   hist(MEAN , col = "red")
-  print(paste0("mean =" ,mean(MEAN)))
-  print(paste0("median =" ,median(MEDIAN)))
+  print(paste0("mean = ",mean(MEAN)))
+  print(paste0("median = ",median(MEDIAN)))
 }
